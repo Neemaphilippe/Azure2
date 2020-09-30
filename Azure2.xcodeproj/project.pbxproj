@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55F81AAD2524E3E000A97E6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AAC2524E3E000A97E6A /* AppDelegate.swift */; };
+		55F81AAF2524E3E000A97E6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AAE2524E3E000A97E6A /* SceneDelegate.swift */; };
+		55F81AB12524E3E000A97E6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AB02524E3E000A97E6A /* ViewController.swift */; };
+		55F81AB42524E3E000A97E6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F81AB22524E3E000A97E6A /* Main.storyboard */; };
+		55F81AB62524E3E400A97E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F81AB52524E3E400A97E6A /* Assets.xcassets */; };
+		55F81AB92524E3E400A97E6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F81AB72524E3E400A97E6A /* LaunchScreen.storyboard */; };
+		55F81AC42524E3E400A97E6A /* Azure2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AC32524E3E400A97E6A /* Azure2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55F81AC02524E3E400A97E6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55F81AA12524E3E000A97E6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F81AA82524E3E000A97E6A;
+			remoteInfo = Azure2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55F81AA92524E3E000A97E6A /* Azure2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Azure2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F81AAC2524E3E000A97E6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55F81AAE2524E3E000A97E6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55F81AB02524E3E000A97E6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55F81AB32524E3E000A97E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55F81AB52524E3E400A97E6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55F81AB82524E3E400A97E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55F81ABA2524E3E400A97E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F81ABF2524E3E400A97E6A /* Azure2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Azure2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F81AC32524E3E400A97E6A /* Azure2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azure2Tests.swift; sourceTree = "<group>"; };
+		55F81AC52524E3E400A97E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F81AA62524E3E000A97E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F81ABC2524E3E400A97E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F81AA02524E3E000A97E6A = {
+			isa = PBXGroup;
+			children = (
+				55F81AAB2524E3E000A97E6A /* Azure2 */,
+				55F81AC22524E3E400A97E6A /* Azure2Tests */,
+				55F81AAA2524E3E000A97E6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55F81AAA2524E3E000A97E6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F81AA92524E3E000A97E6A /* Azure2.app */,
+				55F81ABF2524E3E400A97E6A /* Azure2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F81AAB2524E3E000A97E6A /* Azure2 */ = {
+			isa = PBXGroup;
+			children = (
+				55F81AAC2524E3E000A97E6A /* AppDelegate.swift */,
+				55F81AAE2524E3E000A97E6A /* SceneDelegate.swift */,
+				55F81AB02524E3E000A97E6A /* ViewController.swift */,
+				55F81AB22524E3E000A97E6A /* Main.storyboard */,
+				55F81AB52524E3E400A97E6A /* Assets.xcassets */,
+				55F81AB72524E3E400A97E6A /* LaunchScreen.storyboard */,
+				55F81ABA2524E3E400A97E6A /* Info.plist */,
+			);
+			path = Azure2;
+			sourceTree = "<group>";
+		};
+		55F81AC22524E3E400A97E6A /* Azure2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				55F81AC32524E3E400A97E6A /* Azure2Tests.swift */,
+				55F81AC52524E3E400A97E6A /* Info.plist */,
+			);
+			path = Azure2Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F81AA82524E3E000A97E6A /* Azure2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F81AC82524E3E400A97E6A /* Build configuration list for PBXNativeTarget "Azure2" */;
+			buildPhases = (
+				55F81AA52524E3E000A97E6A /* Sources */,
+				55F81AA62524E3E000A97E6A /* Frameworks */,
+				55F81AA72524E3E000A97E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Azure2;
+			productName = Azure2;
+			productReference = 55F81AA92524E3E000A97E6A /* Azure2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55F81ABE2524E3E400A97E6A /* Azure2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F81ACB2524E3E400A97E6A /* Build configuration list for PBXNativeTarget "Azure2Tests" */;
+			buildPhases = (
+				55F81ABB2524E3E400A97E6A /* Sources */,
+				55F81ABC2524E3E400A97E6A /* Frameworks */,
+				55F81ABD2524E3E400A97E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F81AC12524E3E400A97E6A /* PBXTargetDependency */,
+			);
+			name = Azure2Tests;
+			productName = Azure2Tests;
+			productReference = 55F81ABF2524E3E400A97E6A /* Azure2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F81AA12524E3E000A97E6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Neema Philippe";
+				TargetAttributes = {
+					55F81AA82524E3E000A97E6A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					55F81ABE2524E3E400A97E6A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 55F81AA82524E3E000A97E6A;
+					};
+				};
+			};
+			buildConfigurationList = 55F81AA42524E3E000A97E6A /* Build configuration list for PBXProject "Azure2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55F81AA02524E3E000A97E6A;
+			productRefGroup = 55F81AAA2524E3E000A97E6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F81AA82524E3E000A97E6A /* Azure2 */,
+				55F81ABE2524E3E400A97E6A /* Azure2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F81AA72524E3E000A97E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F81AB92524E3E400A97E6A /* LaunchScreen.storyboard in Resources */,
+				55F81AB62524E3E400A97E6A /* Assets.xcassets in Resources */,
+				55F81AB42524E3E000A97E6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F81ABD2524E3E400A97E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F81AA52524E3E000A97E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F81AB12524E3E000A97E6A /* ViewController.swift in Sources */,
+				55F81AAD2524E3E000A97E6A /* AppDelegate.swift in Sources */,
+				55F81AAF2524E3E000A97E6A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F81ABB2524E3E400A97E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F81AC42524E3E400A97E6A /* Azure2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55F81AC12524E3E400A97E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F81AA82524E3E000A97E6A /* Azure2 */;
+			targetProxy = 55F81AC02524E3E400A97E6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55F81AB22524E3E000A97E6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F81AB32524E3E000A97E6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55F81AB72524E3E400A97E6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F81AB82524E3E400A97E6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55F81AC62524E3E400A97E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55F81AC72524E3E400A97E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55F81AC92524E3E400A97E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Azure2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Azure.Azure2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55F81ACA2524E3E400A97E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Azure2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Azure.Azure2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55F81ACC2524E3E400A97E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Azure2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Azure.Azure2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Azure2.app/Azure2";
+			};
+			name = Debug;
+		};
+		55F81ACD2524E3E400A97E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Azure2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Azure.Azure2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Azure2.app/Azure2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F81AA42524E3E000A97E6A /* Build configuration list for PBXProject "Azure2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F81AC62524E3E400A97E6A /* Debug */,
+				55F81AC72524E3E400A97E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F81AC82524E3E400A97E6A /* Build configuration list for PBXNativeTarget "Azure2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F81AC92524E3E400A97E6A /* Debug */,
+				55F81ACA2524E3E400A97E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F81ACB2524E3E400A97E6A /* Build configuration list for PBXNativeTarget "Azure2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F81ACC2524E3E400A97E6A /* Debug */,
+				55F81ACD2524E3E400A97E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F81AA12524E3E000A97E6A /* Project object */;
+}
