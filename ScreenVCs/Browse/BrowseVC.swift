@@ -32,7 +32,7 @@ class BrowseVC: UIViewController {
         super.viewDidLoad()
         addViews()
         setUpSearchBarConstraints()
-        
+        setUpRecipeCollectionView()
 
         
     }

@@ -20,8 +20,16 @@ extension BrowseVC {
         ])
     }
     
-    
-    
+    func setUpRecipeCollectionView() {
+        recipeCollectionView.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            recipeCollectionView.topAnchor.constraint(equalTo: browseSearchBar.bottomAnchor),
+            recipeCollectionView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            recipeCollectionView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor),
+            recipeCollectionView.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor)
+        
+        ])
+    }
     
     
 }
