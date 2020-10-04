@@ -14,6 +14,8 @@
 		55F81AB62524E3E400A97E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F81AB52524E3E400A97E6A /* Assets.xcassets */; };
 		55F81AB92524E3E400A97E6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F81AB72524E3E400A97E6A /* LaunchScreen.storyboard */; };
 		55F81AC42524E3E400A97E6A /* Azure2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AC32524E3E400A97E6A /* Azure2Tests.swift */; };
+		55F81AD22524F04400A97E6A /* BrowseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AD12524F04400A97E6A /* BrowseVC.swift */; };
+		55F81AD92524F6A800A97E6A /* BrowseConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AD82524F6A800A97E6A /* BrowseConstraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		55F81ABF2524E3E400A97E6A /* Azure2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Azure2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F81AC32524E3E400A97E6A /* Azure2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azure2Tests.swift; sourceTree = "<group>"; };
 		55F81AC52524E3E400A97E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F81AD12524F04400A97E6A /* BrowseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseVC.swift; sourceTree = "<group>"; };
+		55F81AD82524F6A800A97E6A /* BrowseConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseConstraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		55F81AA02524E3E000A97E6A = {
 			isa = PBXGroup;
 			children = (
+				55F81AD02524EFF100A97E6A /* Network Helpers */,
+				55F81ACF2524EFEA00A97E6A /* ScreenVCs */,
 				55F81AAB2524E3E000A97E6A /* Azure2 */,
 				55F81AC22524E3E400A97E6A /* Azure2Tests */,
 				55F81AAA2524E3E000A97E6A /* Products */,
@@ -97,6 +103,30 @@
 				55F81AC52524E3E400A97E6A /* Info.plist */,
 			);
 			path = Azure2Tests;
+			sourceTree = "<group>";
+		};
+		55F81ACF2524EFEA00A97E6A /* ScreenVCs */ = {
+			isa = PBXGroup;
+			children = (
+				55F81AD32524F5AB00A97E6A /* Browse */,
+			);
+			path = ScreenVCs;
+			sourceTree = "<group>";
+		};
+		55F81AD02524EFF100A97E6A /* Network Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Network Helpers";
+			sourceTree = "<group>";
+		};
+		55F81AD32524F5AB00A97E6A /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				55F81AD12524F04400A97E6A /* BrowseVC.swift */,
+				55F81AD82524F6A800A97E6A /* BrowseConstraints.swift */,
+			);
+			path = Browse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F81AD22524F04400A97E6A /* BrowseVC.swift in Sources */,
+				55F81AD92524F6A800A97E6A /* BrowseConstraints.swift in Sources */,
 				55F81AB12524E3E000A97E6A /* ViewController.swift in Sources */,
 				55F81AAD2524E3E000A97E6A /* AppDelegate.swift in Sources */,
 				55F81AAF2524E3E000A97E6A /* SceneDelegate.swift in Sources */,
