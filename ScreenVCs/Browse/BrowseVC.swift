@@ -20,20 +20,28 @@ class BrowseVC: UIViewController {
         return sb
     }()
     
+    lazy var recipeCollectionView: UICollectionView = {
+        let cv: UICollectionView =  UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout())
+        cv.backgroundColor = .lightGray
+        return cv
+    }()
     
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         addViews()
+        setUpSearchBarConstraints()
+        
 
         
     }
     
-    //MARK: PRIVATE FUNCTIONS
+    //MARK: FUNCTIONS
     
-    private func addViews(){
+     func addViews(){
         view.addSubview(browseSearchBar)
+        view.addSubview(recipeCollectionView)
         
     }
     

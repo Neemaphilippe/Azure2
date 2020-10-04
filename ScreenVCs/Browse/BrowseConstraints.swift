@@ -10,7 +10,7 @@ import UIKit
 
 extension BrowseVC {
     
-    private func setUpSearchBarConstraints() {
+     func setUpSearchBarConstraints() {
         browseSearchBar.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             browseSearchBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
