@@ -17,7 +17,7 @@ class RecipeTableViewCell: UITableViewCell {
         imageview.layer.cornerRadius = 11
         imageview.clipsToBounds = true
         return imageview
-    }()
+    }() //need to add to subview
     
 
     override func awakeFromNib() {
