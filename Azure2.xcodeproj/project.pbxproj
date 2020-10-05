@@ -18,6 +18,8 @@
 		55F81AD92524F6A800A97E6A /* BrowseConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AD82524F6A800A97E6A /* BrowseConstraints.swift */; };
 		55F81ADE252972E100A97E6A /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81ADD252972E100A97E6A /* RecipeCollectionViewCell.swift */; };
 		55F81AE1252AA6E000A97E6A /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE0252AA6E000A97E6A /* RecipeModel.swift */; };
+		55F81AE3252AAD1800A97E6A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE2252AAD1800A97E6A /* NetworkManager.swift */; };
+		55F81AE5252AAD4000A97E6A /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE4252AAD4000A97E6A /* AppError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		55F81AD82524F6A800A97E6A /* BrowseConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseConstraints.swift; sourceTree = "<group>"; };
 		55F81ADD252972E100A97E6A /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
 		55F81AE0252AA6E000A97E6A /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		55F81AE2252AAD1800A97E6A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		55F81AE4252AAD4000A97E6A /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 		55F81AD02524EFF100A97E6A /* Network Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				55F81AE4252AAD4000A97E6A /* AppError.swift */,
+				55F81AE2252AAD1800A97E6A /* NetworkManager.swift */,
 			);
 			path = "Network Helpers";
 			sourceTree = "<group>";
@@ -254,8 +260,10 @@
 			files = (
 				55F81AE1252AA6E000A97E6A /* RecipeModel.swift in Sources */,
 				55F81ADE252972E100A97E6A /* RecipeCollectionViewCell.swift in Sources */,
+				55F81AE5252AAD4000A97E6A /* AppError.swift in Sources */,
 				55F81AD22524F04400A97E6A /* BrowseVC.swift in Sources */,
 				55F81AD92524F6A800A97E6A /* BrowseConstraints.swift in Sources */,
+				55F81AE3252AAD1800A97E6A /* NetworkManager.swift in Sources */,
 				55F81AB12524E3E000A97E6A /* ViewController.swift in Sources */,
 				55F81AAD2524E3E000A97E6A /* AppDelegate.swift in Sources */,
 				55F81AAF2524E3E000A97E6A /* SceneDelegate.swift in Sources */,
