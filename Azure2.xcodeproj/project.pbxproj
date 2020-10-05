@@ -20,6 +20,7 @@
 		55F81AE1252AA6E000A97E6A /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE0252AA6E000A97E6A /* RecipeModel.swift */; };
 		55F81AE3252AAD1800A97E6A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE2252AAD1800A97E6A /* NetworkManager.swift */; };
 		55F81AE5252AAD4000A97E6A /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE4252AAD4000A97E6A /* AppError.swift */; };
+		55F81AE8252AB34900A97E6A /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE7252AB34900A97E6A /* CartVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		55F81AE0252AA6E000A97E6A /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		55F81AE2252AAD1800A97E6A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		55F81AE4252AAD4000A97E6A /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		55F81AE7252AB34900A97E6A /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		55F81ACF2524EFEA00A97E6A /* ScreenVCs */ = {
 			isa = PBXGroup;
 			children = (
+				55F81AE6252AADE600A97E6A /* Cart */,
 				55F81AD32524F5AB00A97E6A /* Browse */,
 			);
 			path = ScreenVCs;
@@ -155,6 +158,14 @@
 				55F81AE0252AA6E000A97E6A /* RecipeModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		55F81AE6252AADE600A97E6A /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				55F81AE7252AB34900A97E6A /* CartVC.swift */,
+			);
+			path = Cart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 				55F81AE3252AAD1800A97E6A /* NetworkManager.swift in Sources */,
 				55F81AB12524E3E000A97E6A /* ViewController.swift in Sources */,
 				55F81AAD2524E3E000A97E6A /* AppDelegate.swift in Sources */,
+				55F81AE8252AB34900A97E6A /* CartVC.swift in Sources */,
 				55F81AAF2524E3E000A97E6A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
