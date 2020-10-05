@@ -17,6 +17,7 @@
 		55F81AD22524F04400A97E6A /* BrowseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AD12524F04400A97E6A /* BrowseVC.swift */; };
 		55F81AD92524F6A800A97E6A /* BrowseConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AD82524F6A800A97E6A /* BrowseConstraints.swift */; };
 		55F81ADE252972E100A97E6A /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81ADD252972E100A97E6A /* RecipeCollectionViewCell.swift */; };
+		55F81AE1252AA6E000A97E6A /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE0252AA6E000A97E6A /* RecipeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		55F81AD12524F04400A97E6A /* BrowseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseVC.swift; sourceTree = "<group>"; };
 		55F81AD82524F6A800A97E6A /* BrowseConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseConstraints.swift; sourceTree = "<group>"; };
 		55F81ADD252972E100A97E6A /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		55F81AE0252AA6E000A97E6A /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		55F81AA02524E3E000A97E6A = {
 			isa = PBXGroup;
 			children = (
+				55F81ADF252AA6CE00A97E6A /* Models */,
 				55F81AD02524EFF100A97E6A /* Network Helpers */,
 				55F81ACF2524EFEA00A97E6A /* ScreenVCs */,
 				55F81AAB2524E3E000A97E6A /* Azure2 */,
@@ -138,6 +141,14 @@
 				55F81ADD252972E100A97E6A /* RecipeCollectionViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		55F81ADF252AA6CE00A97E6A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55F81AE0252AA6E000A97E6A /* RecipeModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F81AE1252AA6E000A97E6A /* RecipeModel.swift in Sources */,
 				55F81ADE252972E100A97E6A /* RecipeCollectionViewCell.swift in Sources */,
 				55F81AD22524F04400A97E6A /* BrowseVC.swift in Sources */,
 				55F81AD92524F6A800A97E6A /* BrowseConstraints.swift in Sources */,
