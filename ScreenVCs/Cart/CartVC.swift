@@ -10,13 +10,23 @@ import UIKit
 
 class CartVC: UIViewController {
     
+    lazy var recipeTableView: UITableView = {
+        let tv = UITableView()
+        tv.backgroundColor = .cyan
+        return tv
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        addViews()
+        setUpTableView()
 
         
     }
     
-
+//MARK: FUNCTIONS
+    func addViews(){
+        view.addSubview(recipeTableView)
+    }
     
 }
