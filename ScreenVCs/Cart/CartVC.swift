@@ -10,6 +10,7 @@ import UIKit
 
 class CartVC: UIViewController {
     
+    //MARK: UI Objects
     lazy var recipeTableView: UITableView = {
         let tv = UITableView()
         tv.backgroundColor = .cyan

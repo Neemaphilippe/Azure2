@@ -22,6 +22,7 @@
 		55F81AE5252AAD4000A97E6A /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE4252AAD4000A97E6A /* AppError.swift */; };
 		55F81AE8252AB34900A97E6A /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE7252AB34900A97E6A /* CartVC.swift */; };
 		55F81AEA252AB4F500A97E6A /* CartConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE9252AB4F500A97E6A /* CartConstraints.swift */; };
+		55F81AEC252AB7C800A97E6A /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AEB252AB7C800A97E6A /* RecipeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		55F81AE4252AAD4000A97E6A /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		55F81AE7252AB34900A97E6A /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
 		55F81AE9252AB4F500A97E6A /* CartConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartConstraints.swift; sourceTree = "<group>"; };
+		55F81AEB252AB7C800A97E6A /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				55F81ADD252972E100A97E6A /* RecipeCollectionViewCell.swift */,
+				55F81AEB252AB7C800A97E6A /* RecipeTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				55F81AE1252AA6E000A97E6A /* RecipeModel.swift in Sources */,
 				55F81ADE252972E100A97E6A /* RecipeCollectionViewCell.swift in Sources */,
 				55F81AE5252AAD4000A97E6A /* AppError.swift in Sources */,
+				55F81AEC252AB7C800A97E6A /* RecipeTableViewCell.swift in Sources */,
 				55F81AD22524F04400A97E6A /* BrowseVC.swift in Sources */,
 				55F81AD92524F6A800A97E6A /* BrowseConstraints.swift in Sources */,
 				55F81AE3252AAD1800A97E6A /* NetworkManager.swift in Sources */,
