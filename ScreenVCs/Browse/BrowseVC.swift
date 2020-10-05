@@ -33,6 +33,7 @@ class BrowseVC: UIViewController {
         addViews()
         setUpSearchBarConstraints()
         setUpRecipeCollectionView()
+    
 
         
     }
@@ -44,9 +45,6 @@ class BrowseVC: UIViewController {
         view.addSubview(recipeCollectionView)
         
     }
-    
-    
-    
     
     
 }
