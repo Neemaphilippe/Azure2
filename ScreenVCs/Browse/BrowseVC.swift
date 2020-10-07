@@ -17,6 +17,7 @@ class BrowseVC: UIViewController {
         sb.searchBarStyle = .minimal
         sb.placeholder = "Browse recipes here"
         sb.searchTextField.font = UIFont(name: "Times New Roman", size: 20)
+        sb.delegate = self 
         return sb
     }()
     
@@ -44,6 +45,21 @@ class BrowseVC: UIViewController {
         view.addSubview(browseSearchBar)
         view.addSubview(recipeCollectionView)
         
+    }
+    
+    
+}
+
+extension BrowseVC: UISearchBarDelegate{
+    
+    func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -> Bool {
+        searchBar.showsCancelButton = true
+        return true
+    }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.showsCancelButton = false
+        searchBar.resignFirstResponder()
     }
     
     

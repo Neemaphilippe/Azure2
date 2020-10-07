@@ -23,6 +23,7 @@
 		55F81AE8252AB34900A97E6A /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE7252AB34900A97E6A /* CartVC.swift */; };
 		55F81AEA252AB4F500A97E6A /* CartConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AE9252AB4F500A97E6A /* CartConstraints.swift */; };
 		55F81AEC252AB7C800A97E6A /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81AEB252AB7C800A97E6A /* RecipeTableViewCell.swift */; };
+		55F81B1D252D6F9800A97E6A /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F81B1C252D6F9800A97E6A /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		55F81AE7252AB34900A97E6A /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
 		55F81AE9252AB4F500A97E6A /* CartConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartConstraints.swift; sourceTree = "<group>"; };
 		55F81AEB252AB7C800A97E6A /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		55F81B1C252D6F9800A97E6A /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		55F81AA02524E3E000A97E6A = {
 			isa = PBXGroup;
 			children = (
+				55F81B1B252D6F8500A97E6A /* Secrets */,
 				55F81ADF252AA6CE00A97E6A /* Models */,
 				55F81AD02524EFF100A97E6A /* Network Helpers */,
 				55F81ACF2524EFEA00A97E6A /* ScreenVCs */,
@@ -172,6 +175,14 @@
 				55F81AE9252AB4F500A97E6A /* CartConstraints.swift */,
 			);
 			path = Cart;
+			sourceTree = "<group>";
+		};
+		55F81B1B252D6F8500A97E6A /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				55F81B1C252D6F9800A97E6A /* Secrets.swift */,
+			);
+			path = Secrets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +297,7 @@
 				55F81AEA252AB4F500A97E6A /* CartConstraints.swift in Sources */,
 				55F81AAD2524E3E000A97E6A /* AppDelegate.swift in Sources */,
 				55F81AE8252AB34900A97E6A /* CartVC.swift in Sources */,
+				55F81B1D252D6F9800A97E6A /* Secrets.swift in Sources */,
 				55F81AAF2524E3E000A97E6A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
